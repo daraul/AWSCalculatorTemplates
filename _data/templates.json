@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Basic Wordpress",
+        "url": "https://calculator.s3.amazonaws.com/index.html#r=IAD&s=EC2&key=calc-D2270107-C205-4CEA-A16B-FB317E322E77"
+    },
+    {
+        "name": "Basic Rails",
+        "url": "https://calculator.s3.amazonaws.com/index.html#r=IAD&s=EC2&key=calc-5D197126-210C-4BF4-B577-374AAFA05B37"
+    }
+]
