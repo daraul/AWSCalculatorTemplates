@@ -5,10 +5,16 @@
 
 // Breakpoint variables 
 $breakpoint-1: 900px;
+$breakpoint-2: 600px;
 
 // Trying a new reponsive implementation 
 @mixin responsive-size() {
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: $breakpoint-2) {
+        max-width: $breakpoint-2;
+        margin: 0 auto;
+    }
+    
+    @media screen and (min-width: $breakpoint-1) {
         max-width: $breakpoint-1;
         margin: 0 auto;
     }
