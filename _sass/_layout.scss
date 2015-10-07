@@ -8,6 +8,10 @@
 #page-content {
     @extend #site-header;
     justify-content: flex-start;
+    
+    input {
+        width: $breakpoint-1;
+    }
 }
 
 #site-footer {
