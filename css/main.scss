@@ -2,3 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+
+// Breakpoint variables 
+$breakpoint-1: 900px;
+
+// Trying a new reponsive implementation 
+@mixin responsive-size() {
+    @media screen and (min-width: 900px) {
+        max-width: $breakpoint-1;
+        margin: 0 auto;
+    }
+}
+
+@import
+    "layout"

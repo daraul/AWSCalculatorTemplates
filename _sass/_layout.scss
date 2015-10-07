@@ -1,0 +1,14 @@
+#site-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include responsive-size();
+}
+
+#page-content {
+    @extend #site-header;
+}
+
+#site-footer {
+    @extend #site-header;
+}
